@@ -13,6 +13,8 @@ import {
   Route,
   // Link
 } from "react-router-dom";
+import Welcome from './pages/Welcome';
+import FireAuth from './FireAuth';
 
 
 function App() {
@@ -29,7 +31,10 @@ function App() {
             <Cart />
           </Route>
           <Route path="/Login">
-            <Login />
+            <FireAuth />
+          </Route>
+          <Route path="/Welcome">
+            <Welcome />
           </Route>
           <Route path="/Register">
             <Register />

@@ -10,6 +10,7 @@ import {
     BrowserRouter as Router,
     Link
   } from "react-router-dom";
+import FireAuth from './FireAuth';
 
 const useStyles = makeStyles((theme) => ({
   root: {
@@ -39,6 +40,7 @@ export default function NavBar() {
           </Typography>
           <Typography variant="h6" color="inherit">
           <Link to="/Login">Login</Link>
+          
           </Typography>
           <Typography variant="h6" color="inherit">
           <Link to="/Register">Register</Link>
